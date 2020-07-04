@@ -108,11 +108,11 @@ const MoneyStream = () => (
       <h1>How does MoneyStream implement the BSV hackathon theme for a global "record of events"?</h1>  
       <div>&#x276F; MoneyStream is a monetizer. MoneyStream monetizes browser events for a global internet population. 
         MoneyStream measures an exchange of value, captures the browser events and records them onto 
-        bitcoin at the end of the each browser session. </div>
+        bitcoin at the end of each browser session. </div>
       <div>&#x276F; Bitcoin miners, enforcing the bitcoin protocol, protect web merchants from double spend attempts, providing merchants 
         a safe operating environment to stream content to anyone in the world in exchange for immediate cash. The web content 
         provider is assured of immediate spendable cash received at the end of the user browser session.</div>
-      <div>&#x276F; The bitcoin protocol provides for safe and honest realtime exchange of value</div>
+      <div>&#x276F; The bitcoin protocol provides for safe and honest realtime exchange of value.</div>
       <div>&#x276F; A transaction id is a globally unique pointer to the record of events and acts as a receipt 
         for cash payments that can be accepted by any vendor. Vendors can verify cash 
         payment from anyone anywhere in the world. Instantly.</div>
