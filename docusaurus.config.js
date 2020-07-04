@@ -10,7 +10,7 @@ module.exports = {
     navbar: {
       title: 'MoneyStream',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'MoneyStream',
         src: 'img/logo.svg',
       },
       links: [
@@ -28,9 +28,9 @@ module.exports = {
         // },
       ],
     },
-    // footer: {
-    //   style: 'dark',
-    //   links: [
+    footer: {
+      style: 'dark',
+      links: [
     //     {
     //       title: 'Docs',
     //       items: [
@@ -61,22 +61,22 @@ module.exports = {
     //         },
     //       ],
     //     },
-    //     {
-    //       title: 'More',
-    //       items: [
-    //         {
-    //           label: 'Blog',
-    //           to: 'blog',
-    //         },
+         {
+           title: 'Get Notified',
+           items: [
+             {
+               label: 'Subscribe to MoneyStream Announcements',
+               href: 'https://upubsub.com/sub/5f0105afc530a409f602bf53',
+             },
     //         {
     //           label: 'GitHub',
     //           href: 'https://github.com/facebook/docusaurus',
     //         },
-    //       ],
-    //     },
-    //   ],
-    //   copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-    // },
+           ],
+         },
+       ],
+      copyright: `Copyright © ${new Date().getFullYear()} The MoneyStream Team. Built with Docusaurus.`,
+    },
   },
   presets: [
     [
