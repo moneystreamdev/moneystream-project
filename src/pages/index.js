@@ -109,7 +109,7 @@ const MoneyStream = () => (
       <div>&#x276F; MoneyStream is a monetizer. MoneyStream monetizes browser events for a global internet population. 
         MoneyStream measures an exchange of value, captures the browser events and records them onto 
         bitcoin at the end of each browser session. </div>
-      <div>&#x276F; Bitcoin miners, enforcing the bitcoin protocol, protect web merchants from double spend attempts, providing merchants 
+      <div>&#x276F; By enforcement of the protocol, Bitcoin miners protect web merchants from double spend attempts, providing merchants 
         a safe operating environment to stream content to anyone in the world in exchange for immediate cash. The web content 
         provider is assured of immediate spendable cash received at the end of the user browser session.</div>
       <div>&#x276F; The bitcoin protocol provides for safe and honest realtime exchange of value.</div>
