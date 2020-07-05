@@ -110,8 +110,8 @@ const MoneyStream = () => (
         MoneyStream measures an exchange of value, captures the browser events and records them onto 
         bitcoin at the end of each browser session. </div>
       <div>&#x276F; By enforcement of the protocol, Bitcoin miners protect web merchants from double spend attempts, providing merchants 
-        a safe operating environment to stream content to anyone in the world in exchange for immediate cash. The web content 
-        provider is assured of immediate spendable cash received at the end of the user browser session.</div>
+        a safe operating environment to stream content to anyone in the world in exchange for immediate cash. The web merchant 
+        is assured of instant spendable cash received at the end of the user browser session.</div>
       <div>&#x276F; The bitcoin protocol provides for safe and honest realtime exchange of value.</div>
       <div>&#x276F; A transaction id is a globally unique pointer to the record of events and acts as a receipt 
         for cash payments that can be accepted by any vendor. Vendors can verify cash 
