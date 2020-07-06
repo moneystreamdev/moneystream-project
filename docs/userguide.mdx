@@ -1,0 +1,87 @@
+---
+id: userguide
+title: MoneyStream User Guide
+sidebar_label: User Guide
+---
+
+MoneyStream is a browser extension containing a BitcoinSV (BSV) wallet. When you browse to a monetized website you begin paying a small stream of money. In exchange for your bitcoin, the web site will remove ads and cookies that track you. Also, the stream of money can pay for streaming content and unlock premium content.  
+
+You are in control of your funds at all times. You only pay for content with which you are actively engaged.  
+
+:::tip
+MoneyStream is in Alpha development. That means there will be bugs and interruptions of service. While we feel MoneyStream can be safe if normal precautions are followed, please use it responsibly while under development! Please report any errors at our github repository so that we may fix them promptly.
+:::
+
+:::important
+During the testing period, only fund your wallet in small increments. A few pennies should suffice for several minutes of browsing. You can always top off your wallet with additional funds.
+:::
+
+## Install MoneyStream Extension
+
+The browser extension soon will be available on the google chrome store and firefox for instant installation. Most browsers can run chrome extensions.  
+
+Until it is available from google chrome store, you can download the extension from github. https://github.com/moneystreamdev/web-monetization-projects/blob/master/packages/moneystream-extension/moneystream_extension.zip
+(If you are a developer you may also download the source, compile it and install it from the instructions.)  
+
+Next, extract the zip. Remember where you extracted it to. There will be `manifest.json` file in the folder.
+
+The following instructions are for google chrome browser. Other browsers should be similar.  
+Open extensions using the ellipse then `More tools>Extensions`   
+Click on the button to load a new extension. 
+![Load](/static/img/moneystream-extension-load.png)
+Select the folder where you extracted to, the one with the `manifest.json` file.
+When loaded correctly, the extension will display.
+![Installed](/static/img/moneystream-extension-installed.png)
+Note the following:  
+  * The extension can be enabled and disabled with the toggle button  
+  * There is link called `inspect view` to display Devtools for debugging
+  * Never remove the extension while there are funds in your wallet!
+
+:::important
+Do not remove the extension if you have funds in your wallet! Consume all your browsing funds first or send the funds to another wallet BEFORE removing the extension. We cannot recover your funds if you lose your private key.
+:::
+In the event the extension does not immediately display in your browser, you may have to manually pin it.  
+![Pin the extension](/static/img/moneystream-extension-pinit.png)
+
+## Create Wallet
+Now that the extension is installed, an icon will show in your browser.  
+![MoneyStream Icon](/static/img/moneystream-extension-icon.png)  
+
+The MoneyStream icon will be gray on sites that are not monetized and green when it is streaming money.
+
+Click on the MoneyStream icon. After a couple seconds delay it will display. If you get the Funding screen then good, that is how it should work. If for some reason it does not automatically create a wallet then simply create one on this screen.  
+
+![Create wallet](/static/img/moneystream-extension-createwallet.png)  
+
+Close the extension and click on the icon again to go to the funding page.
+
+## Fund Wallet
+Once your wallet is created you may then fund it.  
+
+![The wallet funding screen](/static/img/moneystream-extension-funding.png)
+
+Enter a small amount (a few cents) and swipe the Money Button to fund your MoneyStream wallet.  
+
+If you do not have access to any BSV tokens then contact dfoderick@gmail.com with your wallet address and you will get a few satoshis so you can start to experience MoneyStream for yourself.
+
+:::tip
+If you have a web site but no access to BSV tokens then see the [Developer Guide](devguide.md) to add monetization to your web site. Use the MoneyStream wallet address in your meta tag. Then advertise your monetized site to the BSV community. When MoneyStream users engage in your content BSV tokens will be streamed into your MoneyStream browsing wallet.
+:::
+:::important
+Your MoneyStream funds are in direct control of your local private key. Make a backup of your private key so you do not lose your funds. 
+:::
+
+## Browse Content  
+A few sites exist that are currently monetized with MoneyStream. If you wish to add your own to this list then submit a pull request to the github repository or contact dfoderick@gmail.com. We will create a section that will prominantly feature your MoneyStream monetized web site. 
+
+When you browse moentized sites the icon will show in green with a green dollar sign.
+
+![Monetizing](/static/img/moneystream-extension-monetizing.png)
+
+* This site, the [MoneyStream project site](https://github.com/moneystreamdev/moneystream-project), is monetized. If you just installed the wallet then refresh the page.   
+* [BitcoinOfThings](https://bigcoinofthings.com). BOT is the default service provider for MoneyStream.  
+* [upubsub.com](https://upubsub.com) is a subscription site where you can get notified about MoneyStream announcements    
+* [moneystream-examples](https://github.com/moneystreamdev/moneystream-examples). Demo sites are available to [get started developing your own monetized sites](devguide.md).  
+
+## Monetize your own site
+See the [Developer Guide](devguide.md) to earn money on your own site. It can be as easy as adding a single line of HTML to your web page.
