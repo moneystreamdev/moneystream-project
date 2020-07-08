@@ -3,6 +3,6 @@
 
 module.exports = {
   someSidebar: {
-    MoneyStream: ['userguide','devguide'],
+    MoneyStream: ['userguide','devguide','knownissues'],
   },
 };
