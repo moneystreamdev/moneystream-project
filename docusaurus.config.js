@@ -21,11 +21,11 @@ module.exports = {
           position: 'left',
         },
         // {to: 'blog', label: 'Blog', position: 'left'},
-        // {
-        //   href: 'https://github.com/facebook/docusaurus',
-        //   label: 'GitHub',
-        //   position: 'right',
-        // },
+        {
+          href: 'https://github.com/moneystreamdev',
+          label: 'GitHub',
+          position: 'right',
+        },
       ],
     },
     footer: {
@@ -44,13 +44,13 @@ module.exports = {
     //         },
     //       ],
     //     },
-    //     {
-    //       title: 'Community',
-    //       items: [
-    //         {
-    //           label: 'Stack Overflow',
-    //           href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-    //         },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'Telegram Support',
+              href: 'https://t.me/bsvmoneystream',
+            },
     //         {
     //           label: 'Discord',
     //           href: 'https://discordapp.com/invite/docusaurus',
@@ -59,8 +59,8 @@ module.exports = {
     //           label: 'Twitter',
     //           href: 'https://twitter.com/docusaurus',
     //         },
-    //       ],
-    //     },
+          ],
+        },
          {
            title: 'Get Notified',
            items: [
