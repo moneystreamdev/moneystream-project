@@ -5,7 +5,7 @@ sidebar_label: Dev Guide
 ---
 
 ## Add meta tag to your web site
-Monetizing your web site can be as easy as adding one meta tag with your paymail address. Add this to the ```header``` section of your web page.  
+Monetizing your web site can be as easy as adding one meta tag with your paymail address. Add this to the ```head``` section of your web page.  
 
 ```
 <meta name="monetization" content="<yourpaymailaddress>" />
