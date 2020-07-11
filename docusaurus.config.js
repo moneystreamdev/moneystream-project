@@ -1,6 +1,6 @@
 module.exports = {
   title: 'MoneyStream',
-  tagline: 'Streamable money for the streaming web',
+  tagline: 'Streaming money for the streaming web',
   url: 'https://moneystreamdev.github.io',
   baseUrl: '/moneystream-project/',
   favicon: 'img/favicon.ico',
