@@ -12,11 +12,10 @@ These are some of the current known issues with MoneyStream. Please report new i
 
 * The Green monetization badge stays green even when there are errors monetizing
 * Dust UTXOS are not spendable. Eventually the extension wallet will be able to spend dust.
-* There is currently no way to export funds from the wallet
 * The wallet reuses addresses
 * The extension UI page continuously refreshes when monetization is active. To make it stop blinking switch to a non-monetized web page and then use the MoneyStream extension UI
 * Monetization does not resume when switching back to a web page that was monetized. Just refresh the page to restart monetization.
 
 Please use the Telegram support channel to let us know if any of these issues are a priority to fix.  
 
-Thanks for your patience
+Thank you for your patience in resolving these issues.
