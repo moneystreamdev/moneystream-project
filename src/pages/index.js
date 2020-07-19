@@ -75,7 +75,7 @@ const MoneyStream = () => (
           watching a video, playing a game, or interacting with any content 
           including simply reading a web page. </div>
         <div>&#x276F; MoneyStream pays websites to remove ads from a browsing session.</div>
-        <div>&#x276F; MoneyStream pays content creators and platforms for access to streamable content 
+        <div>&#x276F; MoneyStream pays content creators and platforms for access to streaming content 
           using a pay-as-you-go model. There are no burdensome subscriptions to maintain. 
           The user always controls the funds in their wallet.</div>
         {/* <div>&#x276F; The user streams cash from their MoneyStream wallet to the website. 
