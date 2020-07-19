@@ -10,7 +10,6 @@ MoneyStream is early Alpha stage development. While we believe it can be safe to
 
 These are some of the current known issues with MoneyStream. Please report new issues on our Telegram support channel or on <a href="https://github.com/moneystreamdev/web-monetization-projects/issues">GitHub</a>.
 
-* The Green monetization badge stays green even when there are errors monetizing
 * Dust UTXOS are not spendable. Eventually the extension wallet will be able to spend dust.
 * The wallet reuses addresses
 * The extension UI page continuously refreshes when monetization is active. To make it stop blinking switch to a non-monetized web page and then use the MoneyStream extension UI
