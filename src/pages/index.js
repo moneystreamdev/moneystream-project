@@ -89,7 +89,7 @@ const MoneyStream = () => (
           and extraneous noise.</div>
         <div>&#x276F; MoneyStream allows content platforms to be created easily. <b>One line of HTML code can enable monetization on your web site</b>.</div>
         <div>&#x276F; MoneyStream provides an opportunity for everyone to earn instant cash from 
-          streaming web content. No contracts. No minimum to receive a payout.
+          streaming web content. No contracts. No escrow. No minimum to receive a payout.
           No delays. No subscriptions. Spend cash. Receive cash.</div>
         <div>&#x276F; Each MoneyStream monetized browser session settles to 
           one transaction on the bitcoin ledger.</div>
