@@ -71,8 +71,8 @@ const MoneyStream = () => (
         <div>&#x276F; The internet is a streaming medium. 
           MoneyStream is <b>streamable money</b> for the streaming web.</div>
         <div>&#x276F; MoneyStream monetizes virtually all most common 
-          browser sessions. You only pay for what you use. Use MoneyStream when you don't know how long you will be browsing content, 
-          watching a video, playing a game, or interacting with any content 
+          browser sessions. You only pay for what you use. Use MoneyStream to  
+          watch a video, play a web game or interact with any content 
           including simply reading a web page. </div>
         <div>&#x276F; MoneyStream pays websites to remove ads from a browsing session.</div>
         <div>&#x276F; MoneyStream pays content creators and platforms for access to streaming content 
