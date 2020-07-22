@@ -140,7 +140,7 @@ function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Streaming money for the streaming web">
         <Monetize />
       <main>
         <div className="container">
