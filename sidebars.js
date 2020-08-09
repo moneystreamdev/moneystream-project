@@ -4,5 +4,6 @@
 module.exports = {
   someSidebar: {
     MoneyStream: ['userguide','devguide','knownissues'],
+    PrivacyPolicy: ['privacy'],
   },
 };
