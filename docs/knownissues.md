@@ -17,6 +17,7 @@ These are some of the current known issues with MoneyStream. Please report new i
 * Monetization does not resume when switching back to a web page that was monetized. Just refresh the page to restart monetization.
 * Sometimes the balance does not refresh after swiping MoneyButton. Use the refresh button.
 * Fee calculation is not efficient. Fee calculation will be improved.
+* There is no currency converter yet. Stream amounts and wallet balance should be in a local currency.
 
 Please use the Telegram support channel to let us know if any of these issues are a priority to fix.  
 
