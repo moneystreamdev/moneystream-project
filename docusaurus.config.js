@@ -51,10 +51,10 @@ module.exports = {
               label: 'Telegram Support',
               href: 'https://t.me/bsvmoneystream',
             },
-    //         {
-    //           label: 'Discord',
-    //           href: 'https://discordapp.com/invite/docusaurus',
-    //         },
+            {
+              label: 'Privacy',
+              to: 'docs/privacy',
+            },
     //         {
     //           label: 'Twitter',
     //           href: 'https://twitter.com/docusaurus',
