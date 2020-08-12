@@ -8,6 +8,18 @@ import styles from './styles.module.css';
 import Head from '@docusaurus/Head'
 
 const features = [
+  {
+    title: <>Install and use MoneyStream</>,
+    description: (
+      <div className="text--center">
+      <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/fd5zHcjiFD8" frameborder="0" 
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+      </div>
+      ),
+  },
   // {
   //   title: <>Easy to Use</>,
   //   imageUrl: 'img/undraw_docusaurus_mountain.svg',
@@ -78,13 +90,6 @@ const MoneyStream = () => (
         <div>&#x276F; MoneyStream pays content creators and platforms for access to streaming content 
           using a pay-as-you-go model. There are no burdensome subscriptions to maintain. 
           The user always controls the funds in their wallet.</div>
-        {/* <div>&#x276F; The user streams cash from their MoneyStream wallet to the website. 
-          Each send of cash from the wallet may be the last, since the user may lose the connection 
-          or may close their browser or become inaccessible for any reason.</div>
-        <div>&#x276F; Therefore, the web site needs assurance that any transaction received from 
-          the user wallet must be spendable without further action from the user. 
-          After a certain period of inactivity the web site can broadcast the last known 
-          good cash transaction in order to get paid for the session.</div> */}
         <div>&#x276F; MoneyStream pays for a clean content stream free from tracking ads 
           and extraneous noise.</div>
         <div>&#x276F; MoneyStream allows content platforms to be created easily. <b>One line of HTML code can enable monetization on your web site</b>.</div>
@@ -94,18 +99,12 @@ const MoneyStream = () => (
         <div>&#x276F; Each MoneyStream monetized browser session settles to 
           one transaction on the bitcoin ledger.</div>
 
-        {/* <div>&#x276F; 5 billion current web users on the planet engaged in 200 monetized sessions per day 
-          equates to 1 trillion potential transactions per day using MoneyStream</div> */}
-        {/* <div>* MoneyStream is an implementation of the proposed Web Monetization standard on BitcoinSV</div> */}
-
         {/* <h2>The MoneyStream Service Provider model</h2>
         <div>* A MoneyStream session ought to be managed by the web site receiving the stream. Without stream management the site user might receive content and then simply not pay at the end of the session.</div>
         <div>* The web site could manage the stream themselves, but more likely will opt to direct the MoneyStream to a service provider to manage the stream and interact with the bitcoin network.</div>
         <div>* Service Providers will complete for business from the web sites</div>
         <div>* The service provider can charge a service fee according to whatever agreement they have with the web site</div>
-        <div>* Each time the user sends a transaction to the service provider they get a receipt for cash. The user provides the web site the receipt during the monetization flow.</div>
-        <div>* Using the receipt for cash, the web site may query the service provider to validate that the active user continues to streaming money to the site wallet.</div> */}
-        {/* <div>* The service provider may provide enhanced services for the web site or different tiers of service depending on the unique needs of each site vendor.</div> */}
+        <div>* The service provider may provide enhanced services for the web site or different tiers of service depending on the unique needs of each site vendor.</div> */}
       </div>
     </div>
 
@@ -143,11 +142,6 @@ function Home() {
       description="Streaming money for the streaming web">
         <Monetize />
       <main>
-        <div className="container">
-          <div className={clsx('hero hero--secondary', styles.heroBanner)}>
-          <MoneyStream />
-          </div>
-        </div>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
@@ -159,6 +153,11 @@ function Home() {
             </div>
           </section>
         )}
+        <div className="container">
+          <div className={clsx('hero hero--secondary', styles.heroBanner)}>
+          <MoneyStream />
+          </div>
+        </div>
       </main>
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
