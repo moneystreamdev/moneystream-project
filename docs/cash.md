@@ -22,7 +22,7 @@ These are cash transactions! Treat them as such with all due care. Anyone who in
 :::
 
 :::important  
-All transactions should be use a nTimeLock 60 seconds in the future. A transaction that is not timelocked will close the session. A transaction that is too far in the future might get rejected. You must post to progress before locktime otherwise the session will automatically close.    
+All transactions should use a nTimeLock 60 seconds in the future. A transaction that is not timelocked will close the session. A transaction that is too far in the future might get rejected. You must post to the `progress` method before locktime otherwise the session will automatically close.    
 Signing with SIGHASH_FORKID is assumed.  
 :::
 
