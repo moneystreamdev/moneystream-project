@@ -88,14 +88,14 @@ const MoneyStream = () => (
           including simply reading a web page. </div>
         <div>&#x276F; MoneyStream pays websites to remove ads from a browsing session.</div>
         <div>&#x276F; MoneyStream pays content creators and platforms for access to streaming content 
-          using a pay-as-you-go model. There are no burdensome subscriptions to maintain. 
+          using a pay-as-you-go model. There are no burdensome subscriptions to maintain. MoneyStream provides an alternative revenue model for websites and content creators without ads or subscriptions.  
           The user always controls the funds in their wallet.</div>
         <div>&#x276F; MoneyStream pays for a clean content stream free from tracking ads 
           and extraneous noise.</div>
         <div>&#x276F; MoneyStream allows content platforms to be created easily. <b>One line of HTML code can enable monetization on your web site</b>.</div>
         <div>&#x276F; MoneyStream provides an opportunity for everyone to earn instant cash from 
           streaming web content. No contracts. No minimum to receive a payout.
-          No delays. No subscriptions. Spend cash. Receive cash.</div>
+          No delays. Spend cash. Receive cash.</div>
         <div>&#x276F; Each MoneyStream monetized browser session settles to 
           one transaction on the bitcoin ledger.</div>
 
@@ -110,7 +110,7 @@ const MoneyStream = () => (
 
       <div className="productShowcaseSection paddingBottom">
         <div style={{textAlign: "left", paddingBottom:5}}>
-          <h2>How does MoneyStream implement the BSV hackathon theme for a global "record of events"?</h2>  
+          <h2>How does MoneyStream demostrate the BSV hackathon theme for a global "record of events"?</h2>  
           <div>&#x276F; MoneyStream is a monetizer. MoneyStream monetizes browser events for a global internet population. 
             MoneyStream measures an exchange of value, captures the browser events and records them onto 
             bitcoin at the end of each browser session. </div>
