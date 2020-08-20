@@ -108,6 +108,18 @@ const MoneyStream = () => (
       </div>
     </div>
 
+    <div className="productShowcaseSection paddingBottom">
+        <div style={{textAlign: "left", paddingBottom:5}}>
+          <h2>How does MoneyStream make money?</h2>
+          MoneyStream is a micropayments processor that earns a small percentage of each monetized web session from the web site. 
+          In the future there will be opportunities for users to earn money from their browser
+          history.  Since you, the user, are paying the mining fee to record the payment
+          on the blockchain, you own your 
+          browsing history. In the future, if you opt to divulge your browsing history
+          anonymously to data analytics firms you will earn money in the process.
+        </div>
+      </div>
+
       <div className="productShowcaseSection paddingBottom">
         <div style={{textAlign: "left", paddingBottom:5}}>
           <h2>How does MoneyStream demostrate the BSV hackathon theme for a global "record of events"?</h2>  
