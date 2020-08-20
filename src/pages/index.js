@@ -126,8 +126,7 @@ const MoneyStream = () => (
           <div>&#x276F; Instant cash payments allow for frictionless global trade on the streaming web.</div>
           <div>&#x276F; Users stream cash to content creators who respend streaming cash to other web sites in a rapid 
             virtuous cycle of circulating bitcoin tokens.</div>
-          <div>&#x276F; MoneyStream proves that the original and restored bitcoin is 
-            instant safe global electronic cash for everyone in the world.</div>
+          <div>&#x276F; With MoneyStream, Mediators of Individual Data (MIDs/Data Unions) are possible - allowing users to monetize their data instead of being harvested by big analytics firms for no compensation.</div>
         </div>
       </div>
 
