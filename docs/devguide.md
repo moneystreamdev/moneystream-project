@@ -32,3 +32,26 @@ Should you wish to change to an alternate service provider, it can be easily acc
 ```
 <meta name="monetization" data-service-provider="<serviceproviderurl>" content="<yourpaymailaddress>" />
 ```
+
+## Installing extension from GitHub
+The GitHub repo may be more recent than the chrome store releases. To get the latest development version you may want to install the MoneyStream extension from GitHub.  
+
+You can download the extension from Github. https://github.com/moneystreamdev/web-monetization-projects/blob/master/packages/moneystream-extension/moneystream_extension.zip
+
+Next, extract the zip. Remember where you extracted it to. There will be a `manifest.json` file in the folder.
+
+The following instructions are for google chrome browser. Other browsers should be similar.  
+Open extensions using the ellipse then `More tools>Extensions` or enter "chrome://extensions" in a new tab.  
+Make sure Dev Mode slider on the top right is turned on then click on the button to load a new extension.  
+
+![Load](https://moneystreamdev.github.io/moneystream-project/img/moneystream-extension-load.png)
+
+Select the folder where you extracted to, the one with the `manifest.json` file.
+When loaded correctly, the extension will display.
+
+![Installed](https://moneystreamdev.github.io/moneystream-project/img/moneystream-extension-installed.png)
+
+Note the following:  
+  * The extension can be enabled and disabled with the toggle button  
+  * There is link called `inspect views` to display Devtools for debugging
+  * Never remove the extension while there are funds in your wallet!
