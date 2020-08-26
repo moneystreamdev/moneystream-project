@@ -52,13 +52,13 @@ module.exports = {
               href: 'https://t.me/bsvmoneystream',
             },
             {
+              label: 'Twitter',
+              href: 'https://twitter.com/moneystreamcash',
+            },
+            {
               label: 'Privacy',
               to: 'docs/privacy',
             },
-    //         {
-    //           label: 'Twitter',
-    //           href: 'https://twitter.com/docusaurus',
-    //         },
           ],
         },
          {
