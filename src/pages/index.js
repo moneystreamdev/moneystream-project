@@ -121,7 +121,7 @@ const MoneyStream = () => (
       </div>
 
       <div className="productShowcaseSection paddingBottom">
-        <div style={{textAlign: "left", paddingBottom:5}}>
+        <div style={{textAlign: "left", paddingBottom:20}}>
           <h2>How does MoneyStream demostrate the BSV hackathon theme for a global "record of events"?</h2>  
           <div>&#x276F; MoneyStream is a monetizer. MoneyStream monetizes browser events for a global internet population. 
             MoneyStream measures an exchange of value, captures the browser events and records them onto 
@@ -140,6 +140,31 @@ const MoneyStream = () => (
             virtuous cycle of circulating bitcoin tokens.</div>
           <div>&#x276F; With MoneyStream, Mediators of Individual Data (MIDs/Data Unions) are possible - allowing users to monetize their data instead of being harvested by big analytics firms for no compensation.</div>
         </div>
+      </div>
+
+      <div className="productShowcaseSection paddingBottom">
+        <div style={{textAlign: "left", paddingBottom:5}}>
+        <h2>MoneyStream Vision</h2>
+        <p>
+          Big Data analytic algorithms require data sourced from
+          human activities as inputs. Today, Big Tech harvests user data under the guise of 
+          an advertising revenue model that tracks users across the internet.
+          </p>
+          <p>
+          We imagine a new internet,
+          recast in the image of bitcoin,
+          where users own their browser sessions and other interactions with technology. 
+          In the new internet, Big Tech will need to purchase
+          data from the owner of that data - the users. In other words, Big Tech
+          will be the paying customer of the 7 billion, a complete inversion of control
+          from the way the current internet works.
+          </p>
+          <p>
+          MoneyStream is building tools for 7 billion humans. It begins with users
+          asserting ownership of their data by paying for their interactions
+          with online content. It begins with MoneyStream.
+          </p>
+          </div>
       </div>
 
   </div>
