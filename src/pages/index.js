@@ -109,19 +109,14 @@ const MoneyStream = () => (
     </div>
 
     <div className="productShowcaseSection paddingBottom">
-        <div style={{textAlign: "left", paddingBottom:5}}>
+        <div style={{textAlign: "left", paddingBottom:25}}>
           <h2>How does MoneyStream make money?</h2>
-          MoneyStream is a micropayments processor that earns a small percentage of each monetized web session from the web site. 
-          In the future there will be opportunities for users to earn money from their browser
-          history.  Since you, the user, are paying the mining fee to record the payment
-          on the blockchain, you own your 
-          browsing history. In the future, if you opt to divulge your browsing history
-          anonymously to data analytics firms you will earn money in the process.
+          MoneyStream is a micropayments processor that earns a small percentage of each monetized browser session from the web site. 
         </div>
       </div>
 
       <div className="productShowcaseSection paddingBottom">
-        <div style={{textAlign: "left", paddingBottom:20}}>
+        <div style={{textAlign: "left", paddingBottom:25}}>
           <h2>How does MoneyStream demostrate the BSV hackathon theme for a global "record of events"?</h2>  
           <div>&#x276F; MoneyStream is a monetizer. MoneyStream monetizes browser events for a global internet population. 
             MoneyStream measures an exchange of value, captures the browser events and records them onto 
@@ -138,7 +133,6 @@ const MoneyStream = () => (
           <div>&#x276F; Instant cash payments allow for frictionless global trade on the streaming web.</div>
           <div>&#x276F; Users stream cash to content creators who respend streaming cash to other web sites in a rapid 
             virtuous cycle of circulating bitcoin tokens.</div>
-          <div>&#x276F; With MoneyStream, Mediators of Individual Data (MIDs/Data Unions) are possible - allowing users to monetize their data instead of being harvested by big analytics firms for no compensation.</div>
         </div>
       </div>
 
