@@ -140,7 +140,7 @@ const MoneyStream = () => (
         <div style={{textAlign: "left", paddingBottom:5}}>
         <h2>MoneyStream Vision</h2>
         <p>
-          Big Data analytic algorithms require data sourced from
+          Big Data analytics algorithms and Machine Learning require data sourced from
           human activities as inputs. Today, Big Tech harvests user data under the guise of 
           an advertising revenue model that tracks users across the internet.
           </p>
