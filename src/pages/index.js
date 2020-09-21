@@ -115,7 +115,7 @@ const MoneyStream = () => (
         </div>
       </div>
 
-      <div className="productShowcaseSection paddingBottom">
+      {/* <div className="productShowcaseSection paddingBottom">
         <div style={{textAlign: "left", paddingBottom:25}}>
           <h2>How does MoneyStream demostrate the BSV hackathon theme for a global "record of events"?</h2>  
           <div>&#x276F; MoneyStream is a monetizer. MoneyStream monetizes browser events for a global internet population. 
@@ -134,7 +134,7 @@ const MoneyStream = () => (
           <div>&#x276F; Users stream cash to content creators who respend streaming cash to other web sites in a rapid 
             virtuous cycle of circulating bitcoin tokens.</div>
         </div>
-      </div>
+      </div> */}
 
       <div className="productShowcaseSection paddingBottom">
         <div style={{textAlign: "left", paddingBottom:5}}>
