@@ -13,6 +13,7 @@ MoneyStream uses a cash application protocol. That means transactions are to be 
 :::
 
 The overall application architecture is shown below.
+
 ![MoneyStream communication with cloud wallet](https://moneystreamdev.github.io/moneystream-project/img/moneystream-cloudwallet.png)
 
 1. The User must be authenticated to the cloud wallet with an authentication token. The user sends the following request to the cloud wallet api.
