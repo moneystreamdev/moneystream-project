@@ -16,7 +16,7 @@ The overall application architecture is shown below.
 
 ![MoneyStream communication with cloud wallet](https://moneystreamdev.github.io/moneystream-project/img/moneystream-cloudwallet.png)
 
-1. The User must be authenticated to the cloud wallet with an authentication token. The user sends the following request to the cloud wallet api.
+1. The user must be authenticated to the cloud wallet with an authentication token. The user sends the following request to the cloud wallet api.
 ```
 {
     id:"requestid_string",
@@ -42,7 +42,7 @@ On subsequent requests, the transaction must use the same UTXOs as the first req
 
 The user must send another request (sign or close) before the timelock. If none is received then the UTXO should be assumed to be spent.
 
-3. The extension will forward the transaction to the web site wallet with additional inforation that the application needs.
+3. The extension will forward the transaction to the web site wallet with additional information that the application needs.
 
 4. (Not shown in diagram). User will send a request to close the request.
 ```
