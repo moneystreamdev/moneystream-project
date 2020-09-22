@@ -58,11 +58,13 @@ The user must send another request (sign or close) before the timelock. If none 
 Transactions must be signed using the timelock value. Adjust funding with change amount as necessary.
 
 If the `max` amount can be accomodated using one UTXO then the transaction will look like this.
+
 |Index|SigHash                     |Output       |
 |-----|----------------------------|-------------|
 |0    |SIGHASH_SINGLE\|ANYONECANPAY|Change Amount|
 
 If the `max` amount requires multiple UTXO then the transaction will look like this.
+
 |Index|SigHash                     |Output       |
 |-----|----------------------------|-------------|
 |0    |SIGHASH_SINGLE\|ANYONECANPAY|Change Amount|
