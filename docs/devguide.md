@@ -8,7 +8,7 @@ sidebar_label: Dev Guide
 Monetizing your web site can be as easy as adding one meta tag with your paymail address. Add this to the ```head``` section of your web page.  
 
 ```
-<meta name="monetization" content="<yourpaymailaddress>" >
+<meta name="monetization" content="your_paymail_address" >
 ```
 Or you may use a fixed address.
 ```
@@ -16,7 +16,7 @@ Or you may use a fixed address.
 ```
 You can also use a pub key.
 ```
-<meta name="monetization" content="<yourpubkey>">
+<meta name="monetization" content="your_pubkey">
 ```
 ## More examples
 A more extensive developer guide will be forthcoming.
@@ -30,7 +30,7 @@ MoneyStream is a BitcoinSV implementation of the proposed W3C Web Monetization S
 A stream of cash must be managed. That is the job of a service provider. The default service provider is https://bitcoinofthings.com who is charging 10% of the stream profits during the testing period (charge is applied after paying for miner fees and dust output). That fee is subject to change at any time.   
 Should you wish to change to an alternate service provider, it can be easily accomplished using an attribute in the meta tag.
 ```
-<meta name="monetization" data-service-provider="<serviceproviderurl>" content="<yourpaymailaddress>" >
+<meta name="monetization" data-service-provider="service_provider_url" content="your_paymail_address" >
 ```
 
 ## Installing extension from GitHub
