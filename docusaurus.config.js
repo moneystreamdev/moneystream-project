@@ -20,6 +20,11 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
+        {
+          href: 'https://bitcoinofthings.com/getstarted',
+          label: 'Install',
+          position: 'left',
+        },
         // {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/moneystreamdev',
