@@ -3,7 +3,7 @@
 
 module.exports = {
   someSidebar: {
-    MoneyStream: ['userguide','devguide','webcomponents','knownissues','cash','bitcoin','cloudwallet'],
+    MoneyStream: ['userguide','upgrade','devguide','webcomponents','knownissues','cash','bitcoin','cloudwallet'],
     PrivacyPolicy: ['privacy'],
   },
 };
