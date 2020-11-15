@@ -9,10 +9,10 @@ import Head from '@docusaurus/Head'
 
 const features = [
   {
-    title: <>Install and use MoneyStream</>,
+    title: <>Learn about MoneyStream</>,
     description: (
       <div className="text--center">
-      <iframe width="560" height="315" 
+      <iframe width="460" height="315" 
         src="https://www.youtube.com/embed/fd5zHcjiFD8" frameborder="0" 
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen>
@@ -40,22 +40,21 @@ const features = [
   //     </>
   //   ),
   // },
-  // {
-  //   title: <>Powered by React</>,
-  //   imageUrl: 'img/undraw_docusaurus_react.svg',
-  //   description: (
-  //     <>
-  //       Extend or customize your website layout by reusing React. Docusaurus can
-  //       be extended while reusing the same header and footer.
-  //     </>
-  //   ),
-  // },
+  {
+    title: <>Easy MoneyStream Web Components</>,
+    imageUrl: 'img/webcomponents.png',
+    description: (
+      <>
+        Charge for streaming content with pay-per-second media <a href="/moneystream-project/docs/webcomponents">Web Components</a>. 
+      </>
+    ),
+  },
 ];
 
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--4', styles.feature)}>
+    <div className={clsx('col col--6', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
