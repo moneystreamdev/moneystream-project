@@ -43,6 +43,7 @@ const features = [
   {
     title: <>Easy MoneyStream Web Components</>,
     imageUrl: 'img/webcomponents.png',
+    imageLink: '/moneystream-project/docs/webcomponents',
     description: (
       <>
         Charge for streaming content with pay-per-second media <a href="/moneystream-project/docs/webcomponents">Web Components</a>. 
@@ -51,13 +52,14 @@ const features = [
   },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({imageUrl, title, description, imageLink}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={clsx('col col--6', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
+          {imageLink && (<a href={imageLink}><img className={styles.featureImage} src={imgUrl} alt={title} /></a>)}
+          {!imageLink && (<img className={styles.featureImage} src={imgUrl} alt={title} />)}
         </div>
       )}
       <h3>{title}</h3>
