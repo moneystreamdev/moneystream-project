@@ -79,6 +79,9 @@ const Monetize = () => (
 const MoneyStream = () => (
   <div className="productShowcaseSection paddingBottom">
     <div style={{textAlign: "left", paddingBottom:25}} className="paddingBottom">
+      <div>
+          <img src="img/moneystream.svg"></img>
+      </div>
       <div className="paddingBottom">
         <h2>MoneyStream is Bitcoin. Global. Instant. <span style={{color:"green"}}>Streamable</span>. Cash.</h2>
         <div>&#x276F; The internet is a streaming medium. 
